@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./main.js" defer></script>
-  <title>Document</title>
-</head>
-<body>
-  <section id="modal">
-    <a href="#" id="modal-close"class="close"></a>
-  </section>
-<a href="#" id="add-new">Open Modal</a>
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Template</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--  button that will open the modal { --- to edit accordingly }-->
+    <button id="openModal">Open Modal</button>
 
+    <div class="modal" id="modal">
+      <div class="modal-inner">
+        <h2>Modal Template</h2>
+        <p>Add things!</p>
+        <button id="closeModal">Close</button>
+      </div>
+    </div>
+    <script defer src="./main.js"></script>
+  </body>
+</html>
